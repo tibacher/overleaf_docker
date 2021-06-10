@@ -1,0 +1,14 @@
+[Unit]
+Description=Docker - Sharelatex container
+Requires=docker.service
+After=docker.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/docker/overleaf_docker/scripts/start.sh
+ExecStop=/docker/overleaf_docker/scripts/stop.sh
+
+[Install]
+WantedBy=default.target
+				

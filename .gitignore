@@ -1,0 +1,9 @@
+
+mongo_data
+sharelatex_logs
+sharelatex_data
+redis_data
+texlive_data
+
+*.env
+*.log
