@@ -10,4 +10,7 @@ docker-compose up -d
 
 Or use the start/stop scripts in [scripts](scripts/)
 
-# REPO STAYS PRIVATE! (PASSWORDS)
+# Setup
+Adjust your settings in the ```.env``` and ```mail_pw.env``` file.
+
+The setup is originally used with this proxy: https://github.com/timschaeferde/nginx-proxy-automation
